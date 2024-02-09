@@ -1,0 +1,25 @@
+li{display: inline;
+padding: 0 2%;
+font-size: 26;
+}
+
+ul{
+    padding: 0%;
+    display: inline;
+    margin-left: 60%;
+    color: aliceblue;
+}
+header{
+    padding: 10px 0;
+    background-color: blue;
+    margin: -8 -8 0 -8;
+}
+.usrname{
+    margin-top: 100px;
+    text-align:center;
+}
+.passwordbox{
+    margin-top: 40px;
+    margin-bottom: 35px;
+    text-align:center;
+}
