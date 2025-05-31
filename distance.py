@@ -25,10 +25,3 @@ def levenshtein_distance(str1, str2):
 
     # The bottom-right cell of the matrix contains the Levenshtein distance
     return distance_matrix[len_str1 - 1][len_str2 - 1]
-
-# Example usage:
-str1 = "renu"
-str2 = "naren"
-
-distance = levenshtein_distance(str1, str2)
-print(f"Levenshtein distance between '{str1}' and '{str2}': {distance}")
